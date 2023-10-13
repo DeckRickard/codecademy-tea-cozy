@@ -103,6 +103,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 99%;
 }
 
 .locations-list {
@@ -121,4 +122,20 @@ nav {
     justify-content: space-around;
     opacity: 1;
     padding: 0px 15px;
+}
+
+footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+#copyright {
+    margin-top: 20px;
+}
+
+#copyright h4 {
+    float: left;
 }
